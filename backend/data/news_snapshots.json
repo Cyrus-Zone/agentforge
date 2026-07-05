@@ -1,0 +1,130 @@
+[
+  {
+    "id": "eth-2026-05-28-asia",
+    "published_at": "2026-05-28T02:00:00Z",
+    "symbols": ["ETH/USDT", "ETHUSDT"],
+    "market_regime": "range expansion",
+    "sentiment": "bullish",
+    "source": "archived demo news snapshot",
+    "headline": "ETH spot buyers step in as Asia session volume expands",
+    "headlines": [
+      "ETH spot buyers step in as Asia session volume expands",
+      "Perpetual funding cools after a two-day leverage reset",
+      "Options desks report renewed demand for upside calls"
+    ],
+    "drivers": ["spot volume", "funding reset", "options demand"],
+    "relevance": "Matches the generated fallback candle window used when live HTX data is unavailable."
+  },
+  {
+    "id": "eth-2026-05-29-us",
+    "published_at": "2026-05-29T14:00:00Z",
+    "symbols": ["ETH/USDT", "ETHUSDT"],
+    "market_regime": "trend continuation",
+    "sentiment": "bullish",
+    "source": "archived demo news snapshot",
+    "headline": "ETF flow expectations keep ETH bid while volatility compresses",
+    "headlines": [
+      "ETF flow expectations keep ETH bid while volatility compresses",
+      "On-chain activity rises as stablecoin liquidity rotates into majors",
+      "HTX order book shows higher bid depth near intraday support"
+    ],
+    "drivers": ["ETF flow expectations", "stablecoin rotation", "bid depth"],
+    "relevance": "Useful context for mid-window candles where momentum and spot participation matter."
+  },
+  {
+    "id": "eth-2026-06-02-europe",
+    "published_at": "2026-06-02T09:00:00Z",
+    "symbols": ["ETH/USDT", "ETHUSDT"],
+    "market_regime": "pullback",
+    "sentiment": "neutral",
+    "source": "archived demo news snapshot",
+    "headline": "ETH pauses near resistance as traders wait for macro catalysts",
+    "headlines": [
+      "ETH pauses near resistance as traders wait for macro catalysts",
+      "Derivatives open interest rises without matching spot confirmation",
+      "Market makers widen spreads ahead of US data releases"
+    ],
+    "drivers": ["macro wait", "open interest", "spread widening"],
+    "relevance": "Provides a risk-aware news backdrop for selected windows that include pullbacks."
+  },
+  {
+    "id": "btc-2026-07-01-us",
+    "published_at": "2026-07-01T15:00:00Z",
+    "symbols": ["BTC/USDT", "BTCUSDT"],
+    "market_regime": "breakout test",
+    "sentiment": "bullish",
+    "source": "archived demo news snapshot",
+    "headline": "BTC tests breakout levels as ETF desks report steady demand",
+    "headlines": [
+      "BTC tests breakout levels as ETF desks report steady demand",
+      "Spot volume outpaces derivatives volume during the US session",
+      "Macro desks flag improving risk appetite across digital assets"
+    ],
+    "drivers": ["ETF demand", "spot volume", "risk appetite"],
+    "relevance": "Recent BTC context for live HTX candle selections around early July 2026."
+  },
+  {
+    "id": "eth-2026-07-02-asia",
+    "published_at": "2026-07-02T03:00:00Z",
+    "symbols": ["ETH/USDT", "ETHUSDT"],
+    "market_regime": "momentum",
+    "sentiment": "bullish",
+    "source": "archived demo news snapshot",
+    "headline": "ETH leads majors after spot volume accelerates on HTX",
+    "headlines": [
+      "ETH leads majors after spot volume accelerates on HTX",
+      "Funding remains contained despite higher intraday highs",
+      "Layer-2 activity metrics improve after a quiet start to the week"
+    ],
+    "drivers": ["HTX spot volume", "contained funding", "layer-2 activity"],
+    "relevance": "Recent ETH context for selected backtest windows using live public candles."
+  },
+  {
+    "id": "eth-2026-07-03-us",
+    "published_at": "2026-07-03T16:00:00Z",
+    "symbols": ["ETH/USDT", "ETHUSDT"],
+    "market_regime": "volatility reset",
+    "sentiment": "neutral",
+    "source": "archived demo news snapshot",
+    "headline": "ETH volatility resets as traders trim leverage before the weekend",
+    "headlines": [
+      "ETH volatility resets as traders trim leverage before the weekend",
+      "Spot bid depth remains firm but momentum slows near local highs",
+      "Analysts watch whether ETF inflow expectations carry into next week"
+    ],
+    "drivers": ["leverage trim", "bid depth", "ETF expectations"],
+    "relevance": "Useful for windows ending near the latest demo weekend candles."
+  },
+  {
+    "id": "sol-2026-07-03-us",
+    "published_at": "2026-07-03T17:00:00Z",
+    "symbols": ["SOL/USDT", "SOLUSDT"],
+    "market_regime": "rotation",
+    "sentiment": "bullish",
+    "source": "archived demo news snapshot",
+    "headline": "SOL catches rotation bid as majors consolidate",
+    "headlines": [
+      "SOL catches rotation bid as majors consolidate",
+      "Ecosystem activity metrics improve across high-volume applications",
+      "Traders cite rising spot participation over leverage-led upside"
+    ],
+    "drivers": ["sector rotation", "ecosystem activity", "spot participation"],
+    "relevance": "Recent SOL context for marketplace or chain backtests using SOL/USDT."
+  },
+  {
+    "id": "market-2026-07-04-global",
+    "published_at": "2026-07-04T12:00:00Z",
+    "symbols": ["ALL"],
+    "market_regime": "holiday liquidity",
+    "sentiment": "neutral",
+    "source": "archived demo news snapshot",
+    "headline": "Crypto liquidity thins during the US holiday session",
+    "headlines": [
+      "Crypto liquidity thins during the US holiday session",
+      "Major pairs hold ranges as desks reduce weekend risk",
+      "Stablecoin flows remain positive but order books are lighter than average"
+    ],
+    "drivers": ["holiday liquidity", "range trading", "stablecoin flows"],
+    "relevance": "Broad market context when a selected symbol has no exact archived snapshot."
+  }
+]
